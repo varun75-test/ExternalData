@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: ExternalDataProject
+  gitServerName: vna
+  gitUrl: https://github.com/varun75-test/ExternalDataProject
+  gitUsername: varun75-test
+  gitBranch: main
