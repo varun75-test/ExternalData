@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/varun75-test/ExternalDataProject
   gitUsername: varun75-test
   gitBranch: main
+- name: ExternalService
+  gitServerName: vna
+  gitUrl: https://github.com/varun75-test
+  gitUsername: varun75-test
+  gitBranch: main
