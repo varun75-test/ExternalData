@@ -8,7 +8,19 @@ packages:
   gitUsername: varun75-test
   gitBranch: main
 - name: ExternalService
+  version: "1.0"
   gitServerName: vna
   gitUrl: https://github.com/varun75-test
   gitUsername: varun75-test
   gitBranch: main
+services:
+- serviceName: project.externaldata.integrations:addInts
+  packages:
+  - name: ExternalDataProject
+    version: "2.0"
+  - name: ExternalService
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1081
